@@ -32,10 +32,14 @@ module.exports = upload;
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'clothingapp'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'c237_l11b_supermarketapp'
+    host: 'db4free.net',
+    user: 'calibolu',
+    password: 'Minecraftps69',
+    database: 'uanclothingapp'
 });
 connection.connect((err) => {
     if (err) {
